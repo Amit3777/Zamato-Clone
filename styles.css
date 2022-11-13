@@ -324,6 +324,43 @@
     }
 }
 
+/* Explore Section */
+
+.explore__section_container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 100px;
+    justify-content: center;
+    align-items:flex-start
+    flex-wrap: wrap;
+
+}
+
+.explore__section_container h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+.select__input{
+    padding: 20px;
+    margin-top: 15px;
+    font-weight: 300;
+    color: rgb(28, 28, 28);
+    font-size: 20px;
+    line-height: 26px;
+    border-radius: 5px;
+
+    /* Arrow Design */
+
+    appearance: none;
+    background-image: url('./images/icons8-drop-down-50.png');
+    background-repeat: no-repeat;
+    background-position: right 0.7rem top 50%;
+    background-size: 1.2rem auto;
+}
+
+
 
 
 
